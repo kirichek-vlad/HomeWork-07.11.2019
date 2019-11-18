@@ -1,0 +1,99 @@
+body {
+			background: #E45D44;
+			width: 100%;
+		}
+		.block {
+			width: 60%;
+			height: 570px;
+			margin: 50px auto 0 auto;
+			background: white;
+			box-shadow: 0 0 10px;
+			background: #E6E4E4;
+		}
+		h1 {
+			font-size: 4em;
+			text-align: center;
+			padding-top: 0.6em;
+			margin-bottom: 4rem;
+			font-weight: bold;
+		}
+		input[name="username"], [name="password"] {
+		    width: 80%;
+    		height: 4em;
+   		 	margin-left: 10%;
+    		margin-right: 10%;
+    		border-style: none;
+    		text-align: center;
+    		font-size: 1em;
+    		font-weight: bold;
+    		opacity: 0.5;
+    		margin-bottom: 3em;
+		}
+		input[name="login"] {
+			width: 80%;
+			height: 4em;
+			margin-left: 10%;
+			margin-right: 10%;
+			border-style: none;
+			border-bottom: 0.4em solid green;
+			text-align: center;
+			font-size: 1em;
+			font-weight: bold;
+			margin-bottom: 3em;
+			background: #32A75A;
+			color: white;
+		}
+		input[name="login"]:active {
+				box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+							inset 2px 2px 3px rgba(0, 0, 0, .6);
+        }
+        input[name="facebook"]:active {
+				box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+							inset 2px 2px 3px rgba(0, 0, 0, .6);
+        }
+        input[name="twitter"]:active {
+				box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+							inset 2px 2px 3px rgba(0, 0, 0, .6);
+        }
+        h2 {
+        	font-size: 2em;
+			text-align: center;
+			font-weight: bold;
+			color: #E45D44;
+			text-decoration: none;
+        }
+        a {
+			color: #E45D44;
+			text-decoration: none;
+        }
+        .social {
+        	width: 60%;
+			height: 200px;
+			margin: 1em auto;
+        }
+        h3 {
+			font-size: 2.5em;
+			text-align: center;
+			padding-top: 0.6em;
+			margin-bottom: 4rem;
+			font-weight: bold;
+			color: white;      	
+        }
+        input[name="facebook"],  [name="twitter"] {
+        	width: 45%;
+        	height: 4em;
+        	border-style: none;
+        	text-align: center;
+			font-size: 1em;
+			font-weight: bold;
+			color: white;
+			box-shadow: 0 0 10px black;
+        }  
+        input[name="facebook"] {;
+        	float: left;
+			background: #3A5BA0;
+        }
+        input[name="twitter"] {
+        	float: right;
+			background: #1CB7EB;
+        }
